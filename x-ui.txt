@@ -19,9 +19,9 @@ x-ui
 
 y
 
-zhangxiaobao.life
-API密钥：7e83a84d00fbb7d63ec180f47fdf737bb0634
-hhl16113@163.com
+域名·
+API密钥：
+CF注册邮箱
 
 iptables -I INPUT -p tcp --dport 80 -j ACCEPT
 iptables -I INPUT -p tcp --dport 443 -j ACCEPT
@@ -34,7 +34,7 @@ IP:54321
 点击入站列表
 备注随便，端口443或者80
 复制id，传输选ws，路径粘贴刚刚复制的id
-点请求头，值就是域名zhangxiaobao.life
+点请求头，值就是域名
 粘贴公钥密钥，点击添加
 
 v2ray编辑节点，地址改IP地址
