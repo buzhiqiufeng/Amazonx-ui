@@ -1,0 +1,40 @@
+sudo -i
+
+apt update
+
+sudo apt-get install curl
+
+y
+
+bash <(curl -Ls https://raw.githubusercontent.com/vaxilu/x-ui/master/install.sh)
+
+y
+账户名
+密码
+端口：54321
+
+x-ui
+
+16
+
+y
+
+zhangxiaobao.life
+API密钥：7e83a84d00fbb7d63ec180f47fdf737bb0634
+hhl16113@163.com
+
+iptables -I INPUT -p tcp --dport 80 -j ACCEPT
+iptables -I INPUT -p tcp --dport 443 -j ACCEPT
+iptables -I INPUT -p tcp --dport 8443 -j ACCEPT
+
+IP:54321
+切换版本1.7.5
+点击面板设置，粘贴公钥密钥
+保存配置，重启面板
+点击入站列表
+备注随便，端口443或者80
+复制id，传输选ws，路径粘贴刚刚复制的id
+点请求头，值就是域名zhangxiaobao.life
+粘贴公钥密钥，点击添加
+
+v2ray编辑节点，地址改IP地址
